@@ -8,6 +8,7 @@ const corsOptions = {
   origin: ["null", "http://localhost:80", "https://dev.philipoyelegbin.com.ng"],
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
+  credentials: true,
 };
 
 app.use(express.json());
