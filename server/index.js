@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 const corsOptions = {
-  origin: ["http://localhost:80", "https://dev.philipoyelegbin.com.ng/jobs"],
+  origin: ["http://localhost:80", "https://dev.philipoyelegbin.com.ng/*"],
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
 };
