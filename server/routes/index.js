@@ -7,7 +7,7 @@ const api = Router();
 api.use(
   "/",
   createProxyMiddleware({
-    target: "http://localhost:4001",
+    target: "https://jsjob-crawler.vercel.app",
     changeOrigin: true,
   }),
 );
